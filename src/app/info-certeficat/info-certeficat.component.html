@@ -1,0 +1,13 @@
+<div class="Pozi">
+<h3  *ngFor="let item of MyItems">{{item.work}} </h3>
+<ul *ngFor="let item of MyItems" >
+    <li class="Saiz" *ngFor="let item1 of MyItems[item.id-1].stekTexno"  >
+    <p> </p>
+         {{item1}}
+         
+         
+        </li>
+
+    </ul>
+</div>
+    

@@ -1,0 +1,11 @@
+<div class="pozi">
+<ul *ngFor="let item of MyItems" >
+    <li >
+         <img  *ngFor="let item1 of MyItems[item.id-1].certificate" class="PozImg" src="{{item1}}">
+         
+        </li>
+    
+    
+    </ul>
+
+</div>
